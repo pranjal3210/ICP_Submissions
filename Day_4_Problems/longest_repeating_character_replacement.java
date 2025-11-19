@@ -5,7 +5,7 @@ public class longest_repeating_character_replacement {
         Scanner sc=new Scanner(System.in);
         String s=sc.next();
         int k=sc.nextInt();
-         int[] freq=new int[26];
+        int[] freq=new int[26];
         int left=0;
         int maxfreq=0;
         int maxwindow=0;
